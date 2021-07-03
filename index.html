@@ -32,7 +32,7 @@
 </head>
 <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-transparent fixed-top">
+    <nav id='navbar' class="navbar navbar-dark navbar-expand-lg bg-transparent fixed-top">
         <a class="navbar-brand" href="#">
             <img src="assets/images/logo/logo.png" width="94" height="80" alt="Saffola logo">
           </a>
@@ -42,23 +42,23 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Products</a>
+            <li class="nav-item ">
+              <a class="nav-link" href="#product">Products</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#feature">Features</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#step">Preparation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#recipes">Recipes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Preparation</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Recipes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#testimonial">Testimonials</a>
             </li>
           </ul>
-            <button class="btn btn-warning btn-lg my-2 my-sm-0" type="submit">Buy Now</button>
+            <button class="btn btn-warning btn-lg my-2 my-sm-0 buy-now" type="submit">Buy Now</button>
         </div>
       </nav>
       <!-- navbar end -->
@@ -90,10 +90,10 @@
             </div>
           </div>
 
-          <!-- <div class="carousel-item carousel-bg-2 ">
+          <div class="carousel-item carousel-bg-2 ">
             <div class="container-fluid">
-                <div class="row carousel-section-2"style="padding-bottom:4%;">
-                  <div class="col-lg-7 carousel-height text-center">
+                <div class="row carousel-section-2"style="padding-top:4%;">
+                  <div class="col-lg-7 pl-0 carousel-height text-center">
                       <img class="d-block w-100 mt-2" src="assets/images/banner/bowl.png" alt="First slide">
                   </div>
                   <div class="col-lg-5 banner-content my-auto">
@@ -109,7 +109,6 @@
             <div class="container-fluid">
                 <div class="row" style="padding-bottom:4%;">
                   <div class="col-lg-7 carousel-height text-center">
-                      
                   </div>
                   <div class="col-lg-5 banner-content my-auto ">
                     <h1 class='text-white display-2'> Delightful snack ready<br>
@@ -119,7 +118,7 @@
                 </div>
             </div>
           </div> 
--->
+
        
        
        
@@ -139,7 +138,7 @@
       <!-- divder end -->
 
       <!-- product slider start -->
-    <section class="bg-warning-soft product-slider-section">
+    <section id='product' class="bg-warning-soft product-slider-section pb-5">
       <div class="container">
         <div class="custom1 owl-carousel owl-theme">
             <div class="item" data-hash="zero">
@@ -160,8 +159,8 @@
 
                       <div class="product-slider-section-3">
                         <div class="row">
-                          <div class="col-lg-12 text-center">
-                            <button class="btn btn-danger">
+                          <div class="col-lg-12 text-center add-on">
+                            <button class="btn btn-danger rotate-356 add-on-btn">
                               Add ons
                             </button>
                           </div>
@@ -192,35 +191,31 @@
                       </div>
                       
                       <div class="product-slider-section-2">
-                        <h1 class='text-danger display-3'>Classic Masala</h1>
+                        <h1 class='text-danger display-3'>Peppy Tomato</h1>
                         <span class="text-dark">
-                          Your favourite mix desi spices now in a chatpata snack! Enjoy a bowl of mouth-watering
-                          Classic Masala flavour for that classic taste in delightful Saffola masala oats!
+                          Relish a tangy bowl of Peppy Tomato flavour for the uplifting tingling taste. Indulge your tastebuds in savoury mix of fresh herbs and crunchy veggies. 
                       </sapn>
                       </div>
 
                       <div class="product-slider-section-3">
                         <div class="row">
-                          <div class="col-lg-12 text-center">
-                            <button class="btn btn-danger">
+                          <div class="col-lg-12 text-center add-on">
+                            <button class="btn btn-danger rotate-356 add-on-btn">
                               Add ons
                             </button>
                           </div>
                             <div class="col-3 pad-0">
-                            <img src="assets/images/product/peanuts-classic masala.png">
+                            <img src="assets/images/product/peppy tomato-green pepper-1.png">
                           </div>
                           <div class="col-9 pad-0">
                             <span class="text-dark">
-                              Top your bowl of classic masala oats with crushed peanuts for the extra bite
+                              Add some capsicum to your peppy tomato
+                              for a desi Mexican touch.
                             </sapn>
                           </div>
                         </div>
                       </div>
-                      <div class='row'>
-                        <div class="col-lg-12 text-center disclaimer-text pad-0">
-                          <span style='font-size: 12px;' class='text-dark op-50'>Disclaimer: Vegetables are dehydrated to maintain goodness and taste, Creative visualization, Suggested garnishing</span>
-                        </div>
-                      </div>
+                     
                     </div>
                   </div>
             </div>
@@ -236,26 +231,25 @@
                   </div>
                   
                   <div class="product-slider-section-2">
-                    <h1 class='text-danger display-3'>Classic Masala</h1>
+                    <h1 class='text-danger display-3'>Veggie Twist</h1>
                     <span class="text-dark">
-                      Your favourite mix desi spices now in a chatpata snack! Enjoy a bowl of mouth-watering
-                      Classic Masala flavour for that classic taste in delightful Saffola masala oats!
+                      Satiate your anytime craving with a comforting bowl of your favourite veggies in aromatic blend of chili, garlic, and curry leaves that will leave you wanting for more!
                   </sapn>
                   </div>
 
                   <div class="product-slider-section-3">
                     <div class="row">
-                      <div class="col-lg-12 text-center">
-                        <button class="btn btn-danger">
+                      <div class="col-lg-12 text-center add-on">
+                        <button class="btn btn-danger rotate-356 add-on-btn">
                           Add ons
                         </button>
                       </div>
                         <div class="col-3 pad-0">
-                        <img src="assets/images/product/peanuts-classic masala.png">
+                        <img src="assets/images/product/veggie-twist-spring onions.png">
                       </div>
                       <div class="col-9 pad-0">
                         <span class="text-dark">
-                          Top your bowl of classic masala oats with crushed peanuts for the extra bite
+                          Top up your veggie twist with some spring onions for the freshness and crunch.
                         </sapn>
                       </div>
                     </div>
@@ -274,26 +268,26 @@
                   </div>
                   
                   <div class="product-slider-section-2">
-                    <h1 class='text-danger display-3'>Classic Masala</h1>
+                    <h1 class='text-danger display-3'>Masala Coriander</h1>
                     <span class="text-dark">
-                      Your favourite mix desi spices now in a chatpata snack! Enjoy a bowl of mouth-watering
-                      Classic Masala flavour for that classic taste in delightful Saffola masala oats!
+                      Popular in the south, Masala Coriander is flavourful blend of tempting well-loved south spices and aromatic coriander.
                   </sapn>
                   </div>
 
                   <div class="product-slider-section-3">
                     <div class="row">
-                      <div class="col-lg-12 text-center">
-                        <button class="btn btn-danger">
+                      <div class="col-lg-12 text-center add-on">
+                        <button class="btn btn-danger rotate-356 add-on-btn">
                           Add ons
                         </button>
                       </div>
                         <div class="col-3 pad-0">
-                        <img src="assets/images/product/peanuts-classic masala.png">
+                        <img src="assets/images/product/masala coriander-gun powder.png">
                       </div>
                       <div class="col-9 pad-0">
                         <span class="text-dark">
-                          Top your bowl of classic masala oats with crushed peanuts for the extra bite
+                          Top it up with drizzle of ghee &
+                          some gun powder
                         </sapn>
                       </div>
                     </div>
@@ -307,31 +301,73 @@
 
                 <div class='product-slider'>
 
-                  <div class="product-slider-section-1">
+                  <div class="product-slider-section-1 d-flex align-items-center flavour-of-south">
                     <img class="d-block w-100 mt-2" src="assets/images/product/flavours of the south.png" alt="Fifth slide">
                   </div>
                   
                   <div class="product-slider-section-2">
-                    <h1 class='text-danger display-3'>Classic Masala</h1>
+                    <h1 class='text-danger display-3'>Flavours of the South</h1>
                     <span class="text-dark">
-                      Your favourite mix desi spices now in a chatpata snack! Enjoy a bowl of mouth-watering
-                      Classic Masala flavour for that classic taste in delightful Saffola masala oats!
+                      The magic of well-loved south spices in three delicious south flavours that would leave everyone craving for more! 
+                      Be it aromatic Sambar or fiery Chettinad or hot Curry Pepper,
+                      these flavours make for delightful warm family snacks that
+                      are too hot to handle - Mind it!
                   </sapn>
                   </div>
 
                   <div class="product-slider-section-3">
                     <div class="row">
-                      <div class="col-lg-12 text-center">
-                        <button class="btn btn-danger">
+                      <div class="col-lg-12 text-center add-on">
+                        <button class="btn btn-danger rotate-356 add-on-btn">
                           Add ons
                         </button>
                       </div>
                         <div class="col-3 pad-0">
-                        <img src="assets/images/product/peanuts-classic masala.png">
+                        <img src="assets/images/product/south of flavours-cashews.png">
                       </div>
                       <div class="col-9 pad-0">
                         <span class="text-dark">
-                          Top your bowl of classic masala oats with crushed peanuts for the extra bite
+                          Top it up with your favorite nuts.
+                        </sapn>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+
+            </div>
+            <div class="item" data-hash="five">
+
+              <div class="container-fluid">
+
+                <div class='product-slider'>
+
+                  <div class="product-slider-section-1">
+                    <img class="d-block w-100 mt-2" src="assets/images/product/plain-oats.png" alt="Fifth slide">
+                  </div>
+                  
+                  <div class="product-slider-section-2">
+                    <h1 class='text-danger display-3'>Plain Oats</h1>
+                    <span class="text-dark">
+                      The heart wants what it wants, so why hold back!
+                      Have it as a hot bowl of Oats or as a cold yummy dessert, or as a healthy add-on to your exiting sweet and savoury delights.
+                  </sapn>
+                  </div>
+
+                  <div class="product-slider-section-3">
+                    <div class="row">
+                      <div class="col-lg-12 text-center add-on">
+                        <button class="btn btn-danger rotate-356 add-on-btn">
+                          Add ons
+                        </button>
+                      </div>
+                        <div class="col-3 pad-0">
+                        <img src="assets/images/product/plain oats - nuts & berries.png">
+                      </div>
+                      <div class="col-9 pad-0">
+                        <span class="text-dark">
+                          Drizzle some honey or maple syrup and top it off with chocolate chips, fresh berries, raisins, or nuts!
                         </sapn>
                       </div>
                     </div>
@@ -342,10 +378,15 @@
 
             </div>
           </div>
+          <div class='row mb-5'>
+            <div class="col-lg-12 text-center pad-0">
+              <span style='font-size: 12px;' class='text-dark op-50'>Disclaimer: Vegetables are dehydrated to maintain goodness and taste, Creative visualization, Suggested garnishing</span>
+            </div>
+          </div>
           <div class="product-list owl-carousel owl-theme product-slider-section-2">
               <div class="item">
-                <a href="#zero">
-                  <div class="product-item product-click">
+                <a href="#zero" onclick="changeActiveClass('zero')">
+                  <div class="product-item zero product-click">
                         <div class="row">
                           <div class="col-lg-5 col-sm-6">
                             <img src="assets/images/product/Bitmap-2.png">
@@ -359,8 +400,8 @@
           </div>
     
             <div class="item">
-                <a href="#one">
-                  <div class="product-item">
+                <a href="#one" onclick="changeActiveClass('one')">
+                  <div class="one product-item">
                         <div class="row">
                           <div class="col-lg-5 col-sm-6">
                             <img src="assets/images/product/Bitmap-3.png">
@@ -374,8 +415,8 @@
             </div>
     
               <div class="item">
-                <a href="#two">
-                  <div class="product-item">
+                <a href="#two" onclick="changeActiveClass('two')">
+                  <div class="two product-item">
                         <div class="row">
                           <div class="col-lg-5 col-sm-6">
                             <img src="assets/images/product/Bitmap-16.png">
@@ -389,8 +430,8 @@
               </div>
     
               <div class="item">
-                <a href="#three">
-                  <div class="product-item">
+                <a href="#three" onclick="changeActiveClass('three')">
+                  <div class="three product-item">
                         <div class="row">
                           <div class="col-lg-5 col-sm-6">
                             <img src="assets/images/product/Bitmap-2.png">
@@ -404,14 +445,29 @@
               </div>
     
               <div class="item">
-                <a href="#four">
-                  <div class="product-item">
+                <a href="#four" onclick="changeActiveClass('four')">
+                  <div class="four product-item">
                         <div class="row">
                           <div class="col-lg-5 col-sm-6">
                             <img src="assets/images/product/Bitmap-2.png">
                           </div>
                           <div class="col-lg-7 col-sm-6 product-content">
                             <h6>flavors of the south</h6>
+                          </div>
+                        </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="item">
+                <a href="#five" onclick="changeActiveClass('five')">
+                  <div class="five product-item">
+                        <div class="row">
+                          <div class="col-lg-5 col-sm-6">
+                            <img src="assets/images/product/plain.png">
+                          </div>
+                          <div class="col-lg-7 col-sm-6 product-content">
+                            <h6>Plain Oats</h6>
                           </div>
                         </div>
                   </div>
@@ -429,10 +485,10 @@
       <!-- divder end -->
 
       <!-- feature section start -->
-      <section class="bg-warning">
+      <section id='feature' class="bg-warning">
         <div class="container-fluid">
             <div class="row">
-              <div class="col-lg-7 feature-content">
+              <div class="col-lg-7 pt-4 feature-content">
                   <div class="container pad-0">
                       <div class="row ">
                           <div class="col-lg-12 text-center">
@@ -477,8 +533,9 @@
                       </div>
                   </div>
               </div>
-              <div class="col-lg-5 feature-bg">
-                <!-- <img class="d-block w-100 mt-2" src="assets/images/banner/Image 1-4.jpg" alt="First slide"> -->
+              <div class="col-lg-5 feature-bg pr-0">
+                  <img class="d-block w-100 d-none d-lg-block d-xl-block" src="assets/images/banner/Image 1-4 -2.jpg" alt="First slide">
+                  <img class="d-block w-100 d-block d-sm-none" src="assets/images/banner/Image 1-4.jpg" alt="First slide">
               </div>
             </div>
         </div>
@@ -486,7 +543,7 @@
       <!-- feature section end -->
 
          <!-- Easy steps start -->
-         <section class="bg-warning-soft steps-section">
+         <section id='step' class="bg-warning-soft steps-section">
             <div class="container">
               <div class="row">
                 <div class="col-lg-12 text-center mb-4">
@@ -529,17 +586,17 @@
 
             <!-- divder start -->
       <section class="spikes"></section>
-      <section class="bg-warning recipes">
+      <section id='recipes' class="bg-warning recipes">
         <div class="container-fluid">
           <div class="row justify-content-center">
-            <div class="col-lg-7 text-center recipes-title">
+            <div class="col-lg-5 text-center recipes-title">
               <h1 class='text-danger display-4'>Steaming Yummy Recipes
                 with Saffola Masala Oats</h1>
                 <div class="d-flex justify-content-space-evenly recipes-tab">
                   <a id='indian-recipe' class='recipe-tab active-recipe' onclick="recipeType('indian')">Indian</a>
                   <a id='italian-chinese-recipe' class='recipe-tab' onclick="recipeType('italian-chinese')">Italian/Chinese</a>
                   <a id='continental-recipe' class='recipe-tab' onclick="recipeType('continental')">Continental</a>
-                  <a id='more-recipe' class='recipe-tab'>More Recipes</a>
+                  <a id='more-recipe' class='recipe-tab'>More Recipes ›</a>
                 </div>
             </div>
           </div>
@@ -548,57 +605,10 @@
           <!-- tabs start -->
           
           <div id="indian" class="recipe ">
-            <h2>indian</h2>
               <div class="recipes-slider owl-carousel owl-theme">
                   <div class="item">
                     <div class="scene scene--card">
-                      <div class="recipe-card1">
-                        <div class="card__face card-face-front">
-                          <img src="assets/images/recipes/img-3.jpg">
-                          <div class='caption container'>
-                            <div class="row">
-                              <div class="col-lg-12 text-center mb-2">
-                                <h1>Peppy Tomato Vegetable Roll</h1>
-                              </div>
-                                <div class='col-lg-12 d-flex time justify-content-center'>
-                                  <img class="mr-3" src="assets/images/svg/food1.svg">
-                                  <span class="mr-3">5</span>
-                                  <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
-                                  <span>10 min</span>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="icon">
-                            <img src="assets/images/recipes/up.svg">
-                          </div>
-                        </div>
-                        <div class="card__face card-face-back">
-                          <span class="title d-block mb-2">Ingredients:</span>
-                          <span class="content d-block mb-4">
-                            Saffola Peppy Tomato Oats – 40 g <br>
-                            Saffola Active oil – 2 tbsp 5 ml<br>
-                            Cumin seeds – 1 tsp 2 g<br>
-                            Carrot – ½ cup 100 g<br>
-                            Capsicum & Onion – ½ cup 50 g each<br>
-                            Spinach Tortilla - 2 x 100 g
-                          </span>
-                          <span class="title d-block mb-2">Method:</span>
-                          <span class="content d-block">
-                            1. Follow the directions to cook Saffola Peppy Tomato Oats and set them aside to cool<br>
-                            2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
-                            3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
-                          </sapn>
-                          <div class="icon">
-                              <img src="assets/images/recipes/close.svg">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="scene scene--card">
-                      <div class="recipe-card">
+                      <div class="recipe-card recipe-card_1">
                         <div class="card__face card-face-front">
                           <img src="assets/images/recipes/img-2.jpg">
                           <div class='caption container'>
@@ -614,7 +624,7 @@
                                 </div>
                             </div>
                           </div>
-                          <div class="icon">
+                          <div class="icon icon_1" onclick="flipCard(1)">
                             <img src="assets/images/recipes/up.svg">
                           </div>
                         </div>
@@ -634,75 +644,392 @@
                             2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
                             3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
                           </sapn>
-                          <div class="icon">
+                          <div class="icon icon_1" onclick="flipCard(1)">
                               <img src="assets/images/recipes/close.svg">
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
 
-                    
-                  </div>
                   <div class="item">
-                    <img src="assets/images/recipes/img-4.jpg">
+                    <div class="scene scene--card">
+                      <div class="recipe-card recipe-card_2">
+                        <div class="card__face card-face-front">
+                          <img src="assets/images/recipes/img-3.jpg">
+                          <div class='caption container'>
+                            <div class="row">
+                              <div class="col-lg-12 text-center mb-2">
+                                <h1>Spinach Oats Khichadi</h1>
+                              </div>
+                                <div class='col-lg-12 d-flex time justify-content-center'>
+                                  <img class="mr-3" src="assets/images/svg/food1.svg">
+                                  <span class="mr-3">5</span>
+                                  <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                  <span>10 min</span>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="icon icon_2" onclick="flipCard(2)">
+                            <img src="assets/images/recipes/up.svg">
+                          </div>
+                        </div>
+                        <div class="card__face card-face-back">
+                          <span class="title d-block mb-2">Ingredients:</span>
+                          <span class="content d-block mb-4">
+                            Saffola Spinach Oats Khichadi – 40 g <br>
+                            Saffola Active oil – 2 tbsp 5 ml<br>
+                            Cumin seeds – 1 tsp 2 g<br>
+                            Carrot – ½ cup 100 g<br>
+                            Capsicum & Onion – ½ cup 50 g each<br>
+                            Spinach Tortilla - 2 x 100 g
+                          </span>
+                          <span class="title d-block mb-2">Method:</span>
+                          <span class="content d-block">
+                            1. Follow the directions to cook Saffola Spinach Oats Khichadi and set them aside to cool<br>
+                            2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                            3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                          </sapn>
+                          <div class="icon icon_2" onclick="flipCard(2)">
+                              <img src="assets/images/recipes/close.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+
                   <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
+                    <div class="scene scene--card">
+                      <div class="recipe-card recipe-card_3">
+                        <div class="card__face card-face-front">
+                          <img src="assets/images/recipes/img-4.jpg">
+                          <div class='caption container'>
+                            <div class="row">
+                              <div class="col-lg-12 text-center mb-2">
+                                <h1>Oats Palak Paneer uttapam</h1>
+                              </div>
+                                <div class='col-lg-12 d-flex time justify-content-center'>
+                                  <img class="mr-3" src="assets/images/svg/food1.svg">
+                                  <span class="mr-3">5</span>
+                                  <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                  <span>10 min</span>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="icon icon_1" onclick="flipCard(3)">
+                            <img src="assets/images/recipes/up.svg">
+                          </div>
+                        </div>
+                        <div class="card__face card-face-back">
+                          <span class="title d-block mb-2">Ingredients:</span>
+                          <span class="content d-block mb-4">
+                            Saffola Oats Palak Paneer uttapam – 40 g <br>
+                            Saffola Active oil – 2 tbsp 5 ml<br>
+                            Cumin seeds – 1 tsp 2 g<br>
+                            Carrot – ½ cup 100 g<br>
+                            Capsicum & Onion – ½ cup 50 g each<br>
+                            Spinach Tortilla - 2 x 100 g
+                          </span>
+                          <span class="title d-block mb-2">Method:</span>
+                          <span class="content d-block">
+                            1. Follow the directions to cook Saffola Oats Palak Paneer uttapam and set them aside to cool<br>
+                            2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                            3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                          </sapn>
+                          <div class="icon icon_1" onclick="flipCard(3)">
+                              <img src="assets/images/recipes/close.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
-                  </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
-                  </div>
+
               </div>
           </div>
 
           <div  id="italian-chinese" class="recipe" style="display:none">
-            <h2>Paris</h2>
+            
               <div class="recipes-slider owl-carousel owl-theme">
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
+                <div class="item">
+                  <div class="scene scene--card">
+                    <div class="recipe-card recipe-card_4">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-2.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Peppy Tomato Vegetable Roll</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_1" onclick="flipCard(4)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Peppy Tomato Oats – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Peppy Tomato Oats and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(4)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
+                </div>
+
+                <div class="item">
+                  <div class="scene scene--card">
+                    <div class="recipe-card recipe-card_5">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-3.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Spinach Oats Khichadi</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_2" onclick="flipCard(5)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Spinach Oats Khichadi – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Spinach Oats Khichadi and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_2" onclick="flipCard(5)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
+                </div>
+
+                <div class="item">
+                  <div class="scene scene--card">
+                    <div class="recipe-card recipe-card_6">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-4.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Oats Palak Paneer uttapam</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_1" onclick="flipCard(6)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Oats Palak Paneer uttapam – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Oats Palak Paneer uttapam and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(6)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
-                  </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
-                  </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
-                  </div>
+                </div>
               </div>
           </div>
 
           <div id="continental" class="recipe" style="display:none">
             <h2>Tokyo</h2>
               <div class="recipes-slider owl-carousel owl-theme">
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
+                <div class="item">
+                  <div class="scene scene--card">
+                    <div class="recipe-card recipe-card_7">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-2.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Peppy Tomato Vegetable Roll</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_1" onclick="flipCard(7)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Peppy Tomato Oats – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Peppy Tomato Oats and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(7)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
+                </div>
+
+                <div class="item">
+                  <div class="scene scene--card">
+                    <div class="recipe-card recipe-card_8">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-3.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Spinach Oats Khichadi</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_2" onclick="flipCard(8)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Spinach Oats Khichadi – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Spinach Oats Khichadi and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_2" onclick="flipCard(8)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
+                </div>
+
+                <div class="item">
+                  <div class="scene scene--card">
+                    <div class="recipe-card recipe-card_9">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-4.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Oats Palak Paneer uttapam</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_1" onclick="flipCard(9)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Oats Palak Paneer uttapam – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Oats Palak Paneer uttapam and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(9)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
-                  </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
-                  </div>
-                  <div class="item">
-                    <img src="assets/images/recipes/img-2.jpg">
-                  </div>
+                </div>
               </div>
           </div>
           
@@ -714,7 +1041,7 @@
         </div>
       </section>
       <!-- divder end -->
-      <section class="bg-warning-soft testimonial">
+      <section id='testimonial' class="bg-warning-soft testimonial">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -896,6 +1223,20 @@
     <!-- script end -->
 
     <script>
+      // $(window).scroll(function(){
+      //     if ($(this).scrollTop() > 50) {
+           
+      //       $('#navbar').addClass('bg-danger-opacity');
+      //       $('#navbar').removeClass('bg-transparent');
+      //     } else {
+      //       $('#navbar').removeClass('bg-danger-opacity');
+      //       $('#navbar').addClass('bg-transparent');
+      //     }
+      // });
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
       var activeRecepieName = "indian-recipe";
       function recipeType(recipeName) {
                 var i;
@@ -911,10 +1252,17 @@
                 }
                 activeRecepieName = recipeName+"-recipe";
               }
+
       // recipe card flip
-      $(".icon").click(function(){
-        $(".recipe-card").toggleClass("is-flipped");
-      });
+      function changeActiveClass(className){
+        $(".product-item").removeClass("product-click");
+        $("."+className).addClass("product-click");
+      }
+
+      function flipCard(id){
+        $(".recipe-card_"+id).toggleClass("is-flipped");
+      }
+
 
       $(document).ready(function() {
 
