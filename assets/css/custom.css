@@ -4,6 +4,14 @@ html {
 body {
   font-family: "Roboto Slab", serif;
   background-color: blue;
+  position: relative;
+}
+#scrollTop{
+  display: none;
+  position:fixed;
+  bottom: 43%;
+  right: 5%;
+  z-index: 20;
 }
 /* #navbarSupportedContent ul li a {
     font-family: 'Roboto Slab', serif;
@@ -349,6 +357,9 @@ body {
 }
 .footer-slider .item{
     padding:5%;
+}
+.footer{
+  padding: 5% 0;
 }
 .carousel-control-next,.carousel-control-prev {
   display: none;

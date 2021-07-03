@@ -585,7 +585,7 @@
           <!-- Easy steps end -->
 
             <!-- divder start -->
-      <section class="spikes"></section>
+      <section class="spikes"></section>  
       <section id='recipes' class="bg-warning recipes">
         <div class="container-fluid">
           <div class="row justify-content-center">
@@ -1175,39 +1175,54 @@
         </div>
       </section>
 
+      <section class="spikes"></section>  
       <section class="bg-danger footer">
         <div class="container">
-          <div class="row mb-4">
-            <div class="col-lg-7">
-              <h1 class='text-white display-4'>Follow us <span class='text-warning'>@saffolafitfoodie</span></h1>
+            <div class="row mb-4">
+              <div class="col-lg-7">
+                <h1 class='text-white display-4'>Follow us <span class='text-warning'>@saffolafitfoodie</span></h1>
+              </div>
+              <div class="col-lg-5 social-icons d-flex justify-content-end">
+                <img class='fb mr-5' src="assets/images/svg/facebook.svg">
+                <img class='mr-5' src="assets/images/svg/insta-1.svg">
+                <img src="assets/images/svg/youtube-1.svg">
+              </div>
             </div>
-            <div class="col-lg-5 social-icons d-flex justify-content-end">
-              <img class='fb mr-5' src="assets/images/svg/facebook.svg">
-              <img class='mr-5' src="assets/images/svg/insta-1.svg">
-              <img src="assets/images/svg/youtube-1.svg">
-            </div>
-          </div>
-          <div class="footer-slider owl-carousel owl-theme">
-            <div class="item">
-              <img src="assets/images/footer/Bitmap-6.png">
-            </div>
-            <div class="item">
-              <img src="assets/images/footer/Bitmap-7.png">
-            </div>
-            <div class="item">
-              <img src="assets/images/footer/Bitmap-6.png">
-            </div>
-            <div class="item">
-              <img src="assets/images/footer/Bitmap-7.png">
-            </div>
-            <div class="item">
-              <img src="assets/images/footer/Bitmap-6.png">
-            </div>
-            <div class="item">
-              <img src="assets/images/footer/Bitmap-7.png">
+            <div class="footer-slider owl-carousel owl-theme">
+              <div class="item">
+                <img src="assets/images/footer/Bitmap-6.png">
+              </div>
+              <div class="item">
+                <img src="assets/images/footer/Bitmap-7.png">
+              </div>
+              <div class="item">
+                <img src="assets/images/footer/Bitmap-6.png">
+              </div>
+              <div class="item">
+                <img src="assets/images/footer/Bitmap-7.png">
+              </div>
+              <div class="item">
+                <img src="assets/images/footer/Bitmap-6.png">
+              </div>
+              <div class="item">
+                <img src="assets/images/footer/Bitmap-7.png">
+              </div>
             </div>
 
-        </div>
+            <div class="row mt-5">
+              <div class="col-lg-5">
+                <a href = "mailto: csc@marico.com" class="mr-5 text-white"><img class='fb mr-2' src="assets/images/svg/mail.svg">csc@marico.com</a>
+                <a href="tel:1800 - 2345 - 3445" class='text-white'><img class='fb mr-2' src="assets/images/svg/phone.svg">1800 - 2345 - 3445</a>
+
+              </div>
+              <div class="col-lg-7 social-icons d-flex justify-content-end">
+                <a class="mr-2 text-white">Terms & Conditions |</a> 
+                <a class="mr-2 text-white">Privacy Policy |</a> 
+                <a class='text-white'>© 2021Saffola. All Rights Reserved</a>
+              </div>
+            </div>
+
+
         </div>
       </section>
 
@@ -1223,16 +1238,20 @@
     <!-- script end -->
 
     <script>
-      // $(window).scroll(function(){
-      //     if ($(this).scrollTop() > 50) {
+      $(window).scroll(function(){
+        var top = document.getElementById("scrollTop");
+          if ($(this).scrollTop() > 50) {
            
-      //       $('#navbar').addClass('bg-danger-opacity');
-      //       $('#navbar').removeClass('bg-transparent');
-      //     } else {
-      //       $('#navbar').removeClass('bg-danger-opacity');
-      //       $('#navbar').addClass('bg-transparent');
-      //     }
-      // });
+            $('#navbar').addClass('bg-danger-opacity');
+            $('#navbar').removeClass('bg-transparent');
+          } else {
+            $('#navbar').removeClass('bg-danger-opacity');
+            $('#navbar').addClass('bg-transparent');
+          }
+
+         $(this).scrollTop() > 500 ? top.style.display = "block" : top.style.display = "none";
+         
+      });
       function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
@@ -1381,5 +1400,8 @@
 
       });
     </script>
+    <a onclick="topFunction()" id="scrollTop" title="Go to top">
+      <img src="assets/images/svg/up arrow.svg">
+    </a>
 </body>
 </html>
