@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:v="https://vecta.io/nano"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1442 752"
+	 style="enable-background:new 0 0 1442 752;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FCC517;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#DB0812;}
+	.st2{fill:url(#SVGID_1_);}
+</style>
+<g>
+	<path class="st0" d="M0,1h1440v750H0V1z"/>
+</g>
+<image style="overflow:visible;enable-background:new    ;" width="1328" height="974" xlink:href="1B50EC6B.jpg"  transform="matrix(0.7709 0 0 0.7709 0 -0.3538)">
+</image>
+<path class="st1" d="M781.3,1h659.9v750H976C822.3,645.8,712,514.7,645,357.9C610.2,276.3,613.4,183,685,87
+	C699.7,67.3,731.8,38.7,781.3,1L781.3,1z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="180.848" y1="916.4908" x2="181.4939" y2="915.9938" gradientTransform="matrix(379.7071 0 0 -750.527 -67928.7422 688071.1875)">
+	<stop  offset="0" style="stop-color:#8E6A46"/>
+	<stop  offset="0.4" style="stop-color:#F1D07C"/>
+	<stop  offset="0.43" style="stop-color:#D9B76E"/>
+	<stop  offset="0.49" style="stop-color:#B9965C"/>
+	<stop  offset="0.54" style="stop-color:#A37E50"/>
+	<stop  offset="0.59" style="stop-color:#957048"/>
+	<stop  offset="0.63" style="stop-color:#906B45"/>
+	<stop  offset="0.66" style="stop-color:#987449"/>
+	<stop  offset="0.7" style="stop-color:#AD8B54"/>
+	<stop  offset="0.76" style="stop-color:#CFB165"/>
+	<stop  offset="0.81" style="stop-color:#F1D777"/>
+	<stop  offset="0.83" style="stop-color:#D8BB6B"/>
+	<stop  offset="0.86" style="stop-color:#BD9E5D"/>
+	<stop  offset="0.88" style="stop-color:#A88753"/>
+	<stop  offset="0.91" style="stop-color:#9A774C"/>
+	<stop  offset="0.95" style="stop-color:#916D47"/>
+	<stop  offset="1" style="stop-color:#8E6A46"/>
+</linearGradient>
+<path class="st2" d="M645.7,233.1c0-102.1,64.7-191.6,160.2-231.9l0.5-0.2L761.8,1l-6.6,3.6c-85.5,48.8-138.1,137.9-138,234.3
+	c0,28.6,6.2,115.4,74.8,226.3c48.4,78,143.8,188.7,278.2,284.4l1.1,0.8l25.6,1l-0.6-0.5c-80.8-61.2-154.1-131.5-218.1-209.4
+	C642.2,377.3,645.7,269.5,645.7,233.1L645.7,233.1z"/>
+</svg>
