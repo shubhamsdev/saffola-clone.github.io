@@ -506,6 +506,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .carousel-bg-3,.carousel-bg-2{
+    display:block;
+  }
   .carousel-bg-1 {
     background-image: url("../images/carousel/bg.svg");
   }
