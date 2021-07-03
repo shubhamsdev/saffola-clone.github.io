@@ -407,10 +407,10 @@ body {
     height:auto;
   }
   .carousel-bg-2 {
-    background-image: url("../images/carousel/bg-81.svg");
+    background-image: url("../images/carousel/bg-11.jpg");
   }
   .carousel-bg-3 {
-    background-image: url("../images/carousel/bg-71.svg");
+    background-image: url("../images/carousel/bg-10.svg");
   }
   .feature-content h1, .banner-content h1, .steps-section h1, .product-slider-section-2 h1, .recipes-title h1, .testimonial h1 {
     text-align: center;
@@ -500,6 +500,9 @@ body {
       background-color:#db0812;
       height:100%;
   }
+  .carousel-bg-3,.carousel-bg-2{
+    display:none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -513,6 +516,8 @@ body {
   .banner-content{
     text-align:center;
     margin-bottom: 25%!important;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .banner-content .display-2{
     font-size: 55px;
@@ -520,6 +525,10 @@ body {
   .banner-content h5{
     font-size: 18px;
   }
+  .carousel-bg-3 .banner-content,.carousel-bg-2 .banner-content {
+    padding: 65% 6% 1% 6%;
+    text-align: center;
+}
   /* .carousel-height {
     height:711px
   }
