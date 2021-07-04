@@ -386,7 +386,7 @@
                             <img src="assets/images/product/Bitmap-2.png">
                           </div>
                           <div class="col-lg-7 col-sm-6 product-content">
-                            <h6>Classic Masala</h6>
+                            <h6 style='text-decoration: none;'>Classic Masala</h6>
                           </div>
                         </div>
                   </div>
@@ -1252,8 +1252,10 @@
     
         });
 
+       
+
         if($(window).width() >= 992) {
-          
+
           $(window).bind('resize', function(e)
           {
             this.location.reload(false);
@@ -1305,6 +1307,7 @@
 
       // recipe card flip
       function changeActiveClass(className){
+        
         $(".product-item").removeClass("product-click");
         $("."+className).addClass("product-click");
       }
