@@ -509,6 +509,9 @@ body {
   .carousel-bg-3,.carousel-bg-2{
     display:block;
   }
+  .bowl{
+    display: none;
+  }
   .carousel-bg-1 {
     background-image: url("../images/carousel/bg.svg");
   }
