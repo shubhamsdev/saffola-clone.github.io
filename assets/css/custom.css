@@ -491,6 +491,13 @@ body {
   .carousel-bg-3,.carousel-bg-2{
     display:none;
   }
+  #scrollTop{
+    display: block;
+    position:fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 20;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -633,6 +640,13 @@ body {
 }
 .term{
   padding: 0 12%;
+}
+#scrollTop{
+  display: block;
+  position:fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 20;
 }
     
 }
