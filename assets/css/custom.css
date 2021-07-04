@@ -404,7 +404,10 @@ body {
     background-image: url("../images/carousel/bg-9.svg");
   }
   .carousel-height {
-    height:auto;
+    /* height:auto; */
+  }
+  .bowl{
+    display: none!important;
   }
   .carousel-bg-2 {
     background-image: url("../images/carousel/bg-11.jpg");
