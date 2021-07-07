@@ -253,6 +253,15 @@ body {
 .swiper-button-prev {
   left: -50px!important;
 }
+.product-list-container {
+  position: relative!important;
+}
+
+#product .swiper-wrapper,#product .swiper-container {
+  position: static!important;
+}
+
+
 .owl-nav {
   position: absolute;
   top: 50%;
@@ -691,6 +700,9 @@ body {
   .product-slider-section-3 {
     background-image: url("../images/product/Combined Shape-2.svg");
   }
+  .product-item {
+    height: 67px;
+  }
   /* .product-slider-section .owl-carousel .owl-item {
     width: 354px!important;
     margin-right: 0px;
@@ -718,6 +730,10 @@ body {
   }
   .product-slider-section-2 .owl-item{
     width: 270px!important;
+  }
+
+  .product-slider-section-2 .swiper-slide {
+    width: 60%;
   }
   .flavour-of-south{
     height:auto;
