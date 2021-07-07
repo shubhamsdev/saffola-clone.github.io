@@ -5,6 +5,12 @@ html {
 a:hover {
   text-decoration: none;
 }
+.fa-chevron-right,.fa-chevron-left {
+  color:  var(--red);
+}
+.footer .fa-chevron-right,.footer .fa-chevron-left {
+  color: #fff;
+}
 body {
   font-family: "Roboto Slab", serif;
   background-color: var(--warning-soft);
@@ -18,15 +24,20 @@ body {
   z-index: 20;
 }
 
+
 #navbarSupportedContent button {
   color: var(--red);
 }
 .navbar-dark .navbar-toggler {
-  /* color: var(--red)!important; */
   border-color: rgba(255, 255, 255, 0)!important;
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("../images/svg/hamburger icon.svg")!important;
+}
+.nav-section{
+      position: absolute;
+    width: 100%;
+    z-index: 1;
 }
 .bg-warning-soft {
   background-color: var(--warning-soft);
@@ -45,9 +56,13 @@ body {
   padding: 1% 3%;
 }
 /* divder css */
-.divder {
+.divider {
   position: absolute;
-  bottom: -7px;
+  bottom: -10px;
+}
+.divider-1 {
+  position: absolute;
+  top: -7px;
 }
 .has-divder {
   position: relative;
@@ -382,17 +397,88 @@ body {
   text-align: right;
 }
 
-@media screen and (max-width: 992px) {
-.buy-now{
-  
-  background-color: #fff;
-  border: 1px solid #fff;
-  border-radius: 0px;
-  width: 100%;
-  height: 68px;
-  font-family: 'Roboto';
+.buy-now-modal{
+  display:none;
+  position: fixed;
+  right:0;
+  top: 80px;
+  padding: 1%;
+  z-index: 18;
+}
+
+.buy-modal{
+  border-radius: 5px;
+  overflow: hidden;
+}
+.buy-now-mob{
+  display:none;
+}
+.spikes{
+  display: block;
+}
+.divider {
+  display: none;
+}
+.half-circle{
+  width: 21px;
+  height: 44px;
+  background-color: #2c2c2cdb;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 12px;
 
 }
+.circle-right {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border-right: 0;
+  top: -34px;
+  right: 8px;
+}
+.circle-left {
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  border-left: 0;
+  top: -34px;
+  left: 8px;
+}
+
+@media screen and (max-width: 992px) {
+.buy-now-mob{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color:#db0812;
+  border-radius: 0px;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  bottom: -7px;
+  font-size: 17px;
+  z-index: 19;
+  font-weight: 500;
+
+}
+.buy-now{
+  display:none;
+}
+.buy-now-mob{
+  display:block;
+}
+.buy-now-modal{
+  display:none;
+  position: fixed;
+  top: inherit;
+  bottom: 70px;
+  padding: 3%;
+  z-index: 18;
+}
+
+
   .carousel-bg-1 {
     background-image: url("../images/carousel/bg-9.svg");
   }
@@ -425,7 +511,7 @@ body {
     background-size: contain;
   }
   .product-slider-section-2 span {
-    font-weight: 800;
+    font-weight: 500;
     text-align: center;
     margin-bottom: 5%;
     display: block;
@@ -498,14 +584,32 @@ body {
   #scrollTop{
     display: block;
     position:fixed;
-    bottom: 5%;
+    bottom: 50%;
     right: 5%;
     z-index: 20;
+  }
+  .spikes{
+    display: none;
+  }
+  .divider {
+    display: block;
+  }
+  .circle-right {
+    
+    top: -34px;
+    right: 3px;
+  }
+  .circle-left {
+    
+    top: -34px;
+    left: 2px;
   }
 }
 
 @media only screen and (max-width: 600px) {
- 
+ .mb-40{
+   margin-bottom:40%;
+ }
   .bowl{
     display: none;
   }
@@ -531,7 +635,7 @@ body {
   .carousel-bg-3 .banner-content,.carousel-bg-2 .banner-content {
     padding: 65% 6% 1% 6%;
     text-align: center;
-}
+  }
  
   .carousel-bg-2 {
     background-image: url("../images/carousel/bg-11.jpg");
@@ -550,11 +654,21 @@ body {
     text-align: center;
     margin-bottom:10%;
   }
-  .product-slider-section .container-fluid{
+  /* .product-slider-section .container-fluid{
     padding:0px !important;
-  }
+  } */
   .product-slider-section-3 {
     background-image: url("../images/product/Combined Shape-2.svg");
+  }
+  /* .product-slider-section .owl-carousel .owl-item {
+    width: 354px!important;
+    margin-right: 0px;
+  } */
+  /* .product-slider-section .owl-carousel .owl-stage {
+    padding: 0px !important;
+  } */
+  .recipes .container-fluid {
+    /* padding: 5% 0; */
   }
   .add-on-btn {
     position: absolute;
@@ -623,8 +737,20 @@ body {
   .recipes-tab a {
     font-size: 14px;
   }
+  .recipes-slider .item {
+    height: 560px;
+  }
+  .recipe .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .card__face .content, .card__face .title {
+    font-size: 16px;
+    font-weight: 500;
+}
   .card__face .caption {
-    bottom: 115px;
+    bottom: 170px;
 }
 .recipes-title h1, .testimonial h1 {
   font-size: 53px;
@@ -647,10 +773,17 @@ body {
 }
 #scrollTop{
   display: block;
-  position:fixed;
-  bottom: 5%;
+  position: absolute;
+  bottom: 780px;
   right: 5%;
   z-index: 20;
 }
+
     
+}
+
+@media only screen and (max-width: 320px) {
+.footer .display-4 {
+  font-size:10px;
+}
 }
