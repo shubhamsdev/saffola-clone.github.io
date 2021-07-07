@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <!-- fonts cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -603,154 +606,213 @@
 
           <!-- tabs start -->
           
-          <div id="indian" class="recipe ">
-              <div class="recipes-slider owl-carousel owl-theme">
-                  <div class="item">
-                    <div class="scene scene--card">
-                      <div class="recipe-card recipe-card_1">
-                        <div class="card__face card-face-front">
-                          <img src="assets/images/recipes/img-2.jpg">
-                          <div class='caption container'>
-                            <div class="row">
-                              <div class="col-lg-12 text-center mb-2">
-                                <h1>Peppy Tomato Vegetable Roll</h1>
-                              </div>
-                                <div class='col-lg-12 d-flex time justify-content-center'>
-                                  <img class="mr-3" src="assets/images/svg/food1.svg">
-                                  <span class="mr-3">5</span>
-                                  <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
-                                  <span>10 min</span>
-                                </div>
+        
+      
+          <div id="indian" class="recipe">
+            <div class="swiper-container indian-swiper-container mt-4">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_1">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-2.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Peppy Tomato Vegetable Roll</h1>
                             </div>
-                          </div>
-                          <div class="icon icon_1" onclick="flipCard(1)">
-                            <img src="assets/images/recipes/up.svg">
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
                           </div>
                         </div>
-                        <div class="card__face card-face-back">
-                          <span class="title d-block mb-2">Ingredients:</span>
-                          <span class="content d-block mb-4">
-                            Saffola Peppy Tomato Oats – 40 g <br>
-                            Saffola Active oil – 2 tbsp 5 ml<br>
-                            Cumin seeds – 1 tsp 2 g<br>
-                            Carrot – ½ cup 100 g<br>
-                            Capsicum & Onion – ½ cup 50 g each<br>
-                            Spinach Tortilla - 2 x 100 g
-                          </span>
-                          <span class="title d-block mb-2">Method:</span>
-                          <span class="content d-block">
-                            1. Follow the directions to cook Saffola Peppy Tomato Oats and set them aside to cool<br>
-                            2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
-                            3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
-                          </sapn>
-                          <div class="icon icon_1" onclick="flipCard(1)">
-                              <img src="assets/images/recipes/close.svg">
-                          </div>
+                        <div class="icon icon_1" onclick="flipCard(1)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Peppy Tomato Oats – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Peppy Tomato Oats and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(1)">
+                            <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
-
-                  <div class="item">
-                    <div class="scene scene--card">
-                      <div class="recipe-card recipe-card_2">
-                        <div class="card__face card-face-front">
-                          <img src="assets/images/recipes/img-3.jpg">
-                          <div class='caption container'>
-                            <div class="row">
-                              <div class="col-lg-12 text-center mb-2">
-                                <h1>Spinach Oats Khichadi</h1>
-                              </div>
-                                <div class='col-lg-12 d-flex time justify-content-center'>
-                                  <img class="mr-3" src="assets/images/svg/food1.svg">
-                                  <span class="mr-3">5</span>
-                                  <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
-                                  <span>10 min</span>
-                                </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_2">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-3.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Spinach Oats Khichadi</h1>
                             </div>
-                          </div>
-                          <div class="icon icon_2" onclick="flipCard(2)">
-                            <img src="assets/images/recipes/up.svg">
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
                           </div>
                         </div>
-                        <div class="card__face card-face-back">
-                          <span class="title d-block mb-2">Ingredients:</span>
-                          <span class="content d-block mb-4">
-                            Saffola Spinach Oats Khichadi – 40 g <br>
-                            Saffola Active oil – 2 tbsp 5 ml<br>
-                            Cumin seeds – 1 tsp 2 g<br>
-                            Carrot – ½ cup 100 g<br>
-                            Capsicum & Onion – ½ cup 50 g each<br>
-                            Spinach Tortilla - 2 x 100 g
-                          </span>
-                          <span class="title d-block mb-2">Method:</span>
-                          <span class="content d-block">
-                            1. Follow the directions to cook Saffola Spinach Oats Khichadi and set them aside to cool<br>
-                            2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
-                            3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
-                          </sapn>
-                          <div class="icon icon_2" onclick="flipCard(2)">
-                              <img src="assets/images/recipes/close.svg">
-                          </div>
+                        <div class="icon icon_2" onclick="flipCard(2)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Spinach Oats Khichadi – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Spinach Oats Khichadi and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_2" onclick="flipCard(2)">
+                            <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
-
-                  <div class="item">
-                    <div class="scene scene--card">
-                      <div class="recipe-card recipe-card_3">
-                        <div class="card__face card-face-front">
-                          <img src="assets/images/recipes/img-4.jpg">
-                          <div class='caption container'>
-                            <div class="row">
-                              <div class="col-lg-12 text-center mb-2">
-                                <h1>Oats Palak Paneer uttapam</h1>
-                              </div>
-                                <div class='col-lg-12 d-flex time justify-content-center'>
-                                  <img class="mr-3" src="assets/images/svg/food1.svg">
-                                  <span class="mr-3">5</span>
-                                  <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
-                                  <span>10 min</span>
-                                </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_3">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-4.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Oats Palak Paneer uttapam</h1>
                             </div>
-                          </div>
-                          <div class="icon icon_1" onclick="flipCard(3)">
-                            <img src="assets/images/recipes/up.svg">
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
                           </div>
                         </div>
-                        <div class="card__face card-face-back">
-                          <span class="title d-block mb-2">Ingredients:</span>
-                          <span class="content d-block mb-4">
-                            Saffola Oats Palak Paneer uttapam – 40 g <br>
-                            Saffola Active oil – 2 tbsp 5 ml<br>
-                            Cumin seeds – 1 tsp 2 g<br>
-                            Carrot – ½ cup 100 g<br>
-                            Capsicum & Onion – ½ cup 50 g each<br>
-                            Spinach Tortilla - 2 x 100 g
-                          </span>
-                          <span class="title d-block mb-2">Method:</span>
-                          <span class="content d-block">
-                            1. Follow the directions to cook Saffola Oats Palak Paneer uttapam and set them aside to cool<br>
-                            2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
-                            3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
-                          </sapn>
-                          <div class="icon icon_1" onclick="flipCard(3)">
-                              <img src="assets/images/recipes/close.svg">
-                          </div>
+                        <div class="icon icon_1" onclick="flipCard(3)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Oats Palak Paneer uttapam – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Oats Palak Paneer uttapam and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(3)">
+                            <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
-
+                </div>
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_4">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-4.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Oats Palak Paneer uttapam</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_1" onclick="flipCard(4)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Oats Palak Paneer uttapam – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Oats Palak Paneer uttapam and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(4)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              
               </div>
+    
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+    
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          
           </div>
 
-          <div  id="italian-chinese" class="recipe" style="display:none">
-              <div class="recipes-slider owl-carousel owl-theme">
-                <div class="item">
-                  <div class="scene scene--card">
-                    <div class="recipe-card recipe-card_4">
+          <div id="italian-chinese" class="recipe">
+            <div class="swiper-container italian-swiper-container mt-4">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_5">
                       <div class="card__face card-face-front">
                         <img src="assets/images/recipes/img-2.jpg">
                         <div class='caption container'>
@@ -766,7 +828,7 @@
                               </div>
                           </div>
                         </div>
-                        <div class="icon icon_1" onclick="flipCard(4)">
+                        <div class="icon icon_1" onclick="flipCard(5)">
                           <img src="assets/images/recipes/up.svg">
                         </div>
                       </div>
@@ -786,17 +848,16 @@
                           2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
                           3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
                         </sapn>
-                        <div class="icon icon_1" onclick="flipCard(4)">
+                        <div class="icon icon_1" onclick="flipCard(5)">
                             <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="item">
-                  <div class="scene scene--card">
-                    <div class="recipe-card recipe-card_5">
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_6">
                       <div class="card__face card-face-front">
                         <img src="assets/images/recipes/img-3.jpg">
                         <div class='caption container'>
@@ -812,7 +873,7 @@
                               </div>
                           </div>
                         </div>
-                        <div class="icon icon_2" onclick="flipCard(5)">
+                        <div class="icon icon_2" onclick="flipCard(6)">
                           <img src="assets/images/recipes/up.svg">
                         </div>
                       </div>
@@ -832,17 +893,16 @@
                           2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
                           3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
                         </sapn>
-                        <div class="icon icon_2" onclick="flipCard(5)">
+                        <div class="icon icon_2" onclick="flipCard(6)">
                             <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="item">
-                  <div class="scene scene--card">
-                    <div class="recipe-card recipe-card_6">
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_7">
                       <div class="card__face card-face-front">
                         <img src="assets/images/recipes/img-4.jpg">
                         <div class='caption container'>
@@ -858,7 +918,7 @@
                               </div>
                           </div>
                         </div>
-                        <div class="icon icon_1" onclick="flipCard(6)">
+                        <div class="icon icon_1" onclick="flipCard(7)">
                           <img src="assets/images/recipes/up.svg">
                         </div>
                       </div>
@@ -878,21 +938,78 @@
                           2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
                           3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
                         </sapn>
-                        <div class="icon icon_1" onclick="flipCard(6)">
+                        <div class="icon icon_1" onclick="flipCard(7)">
                             <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_8">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-4.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Italian Oats Palak Paneer uttapam</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_1" onclick="flipCard(8)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Oats Palak Paneer uttapam – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Oats Palak Paneer uttapam and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(8)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              
               </div>
+    
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+    
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
           </div>
 
-          <div id="continental" class="recipe" style="display:none">
-              <div class="recipes-slider owl-carousel owl-theme">
-                <div class="item">
-                  <div class="scene scene--card">
-                    <div class="recipe-card recipe-card_7">
+          <div id="continental" class="recipe">
+            <div class=" swiper-container continental-swiper-container mt-4">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_9">
                       <div class="card__face card-face-front">
                         <img src="assets/images/recipes/img-2.jpg">
                         <div class='caption container'>
@@ -908,7 +1025,7 @@
                               </div>
                           </div>
                         </div>
-                        <div class="icon icon_1" onclick="flipCard(7)">
+                        <div class="icon icon_1" onclick="flipCard(9)">
                           <img src="assets/images/recipes/up.svg">
                         </div>
                       </div>
@@ -928,17 +1045,16 @@
                           2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
                           3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
                         </sapn>
-                        <div class="icon icon_1" onclick="flipCard(7)">
+                        <div class="icon icon_1" onclick="flipCard(9)">
                             <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="item">
-                  <div class="scene scene--card">
-                    <div class="recipe-card recipe-card_8">
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_10">
                       <div class="card__face card-face-front">
                         <img src="assets/images/recipes/img-3.jpg">
                         <div class='caption container'>
@@ -954,7 +1070,7 @@
                               </div>
                           </div>
                         </div>
-                        <div class="icon icon_2" onclick="flipCard(8)">
+                        <div class="icon icon_2" onclick="flipCard(10)">
                           <img src="assets/images/recipes/up.svg">
                         </div>
                       </div>
@@ -974,17 +1090,16 @@
                           2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
                           3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
                         </sapn>
-                        <div class="icon icon_2" onclick="flipCard(8)">
+                        <div class="icon icon_2" onclick="flipCard(10)">
                             <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="item">
-                  <div class="scene scene--card">
-                    <div class="recipe-card recipe-card_9">
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_11">
                       <div class="card__face card-face-front">
                         <img src="assets/images/recipes/img-4.jpg">
                         <div class='caption container'>
@@ -1000,7 +1115,7 @@
                               </div>
                           </div>
                         </div>
-                        <div class="icon icon_1" onclick="flipCard(9)">
+                        <div class="icon icon_1" onclick="flipCard(11)">
                           <img src="assets/images/recipes/up.svg">
                         </div>
                       </div>
@@ -1020,17 +1135,76 @@
                           2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
                           3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
                         </sapn>
-                        <div class="icon icon_1" onclick="flipCard(9)">
+                        <div class="icon icon_1" onclick="flipCard(11)">
                             <img src="assets/images/recipes/close.svg">
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <div class="swiper-slide">
+                  <div class="scene scene--card pb-5">
+                    <div class="recipe-card recipe-card_12">
+                      <div class="card__face card-face-front">
+                        <img src="assets/images/recipes/img-4.jpg">
+                        <div class='caption container'>
+                          <div class="row">
+                            <div class="col-lg-12 text-center mb-2">
+                              <h1>Continental Oats Palak Paneer uttapam</h1>
+                            </div>
+                              <div class='col-lg-12 d-flex time justify-content-center'>
+                                <img class="mr-3" src="assets/images/svg/food1.svg">
+                                <span class="mr-3">5</span>
+                                <img class="mr-3" src="assets/images/svg/chronometer-14.svg">
+                                <span>10 min</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="icon icon_1" onclick="flipCard(12)">
+                          <img src="assets/images/recipes/up.svg">
+                        </div>
+                      </div>
+                      <div class="card__face card-face-back">
+                        <span class="title d-block mb-2">Ingredients:</span>
+                        <span class="content d-block mb-4">
+                          Saffola Oats Palak Paneer uttapam – 40 g <br>
+                          Saffola Active oil – 2 tbsp 5 ml<br>
+                          Cumin seeds – 1 tsp 2 g<br>
+                          Carrot – ½ cup 100 g<br>
+                          Capsicum & Onion – ½ cup 50 g each<br>
+                          Spinach Tortilla - 2 x 100 g
+                        </span>
+                        <span class="title d-block mb-2">Method:</span>
+                        <span class="content d-block">
+                          1. Follow the directions to cook Saffola Oats Palak Paneer uttapam and set them aside to cool<br>
+                          2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame<br>
+                          3. Keep a spinach tortilla on a plate and spread some oats on top.<br>
+                        </sapn>
+                        <div class="icon icon_1" onclick="flipCard(12)">
+                            <img src="assets/images/recipes/close.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              
               </div>
+    
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+    
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
           </div>
-          <!-- tabs end -->
+    
+
         </div>
+        
+
+
       </section>
       <!-- divder end -->
       <section id='testimonial' class="bg-warning-soft testimonial">
@@ -1237,6 +1411,10 @@
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="https://use.fontawesome.com/41b69c3146.js"></script>
 
     <!-- script end -->
@@ -1297,19 +1475,19 @@
 
       var activeRecepieName = "indian-recipe";
       function recipeType(recipeName) {
-                var i;
-                var x = document.getElementsByClassName("recipe");
-                for (i = 0; i < x.length; i++) {
-                  x[i].style.display = "none";  
-                }
-                document.getElementById(recipeName).style.display = "block";
-                
-                $("#"+recipeName+"-recipe").addClass('active-recipe');
-                if (activeRecepieName !== ""){
-                  $("#"+activeRecepieName).removeClass("active-recipe");
-                }
-                activeRecepieName = recipeName+"-recipe";
-              }
+        var i;
+        var x = document.getElementsByClassName("recipe");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        document.getElementById(recipeName).style.display = "block";
+        
+        $("#"+recipeName+"-recipe").addClass('active-recipe');
+        if (activeRecepieName !== ""){
+          $("#"+activeRecepieName).removeClass("active-recipe");
+        }
+        activeRecepieName = recipeName+"-recipe";
+      }
 
       // recipe card flip
       function changeActiveClass(className){
@@ -1324,6 +1502,78 @@
 
 
       $(document).ready(function() {
+        
+        const swiper2 = new Swiper('.continental-swiper-container', {
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+            breakpoints: {
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              480: {
+                slidesPerView: 2,
+                spaceBetween: 30
+              },
+              640: {
+                slidesPerView: 3,
+                spaceBetween: 40
+              }
+            }
+          });   
+
+        const swiper1 = new Swiper('.italian-swiper-container', {
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+            breakpoints: {
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              480: {
+                slidesPerView: 2,
+                spaceBetween: 30
+              },
+              640: {
+                slidesPerView: 3,
+                spaceBetween: 40
+              }
+            }
+          });
+        const swiper = new Swiper('.indian-swiper-container', {
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+            breakpoints: {
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              480: {
+                slidesPerView: 2,
+                spaceBetween: 30
+              },
+              640: {
+                slidesPerView: 3,
+                spaceBetween: 40
+              }
+            }
+          });
+
 
           $('.product-list').owlCarousel({
               margin:0,
@@ -1342,23 +1592,7 @@
               }
           });
 
-          $('.recipes-slider').owlCarousel({
-              loop:true,
-              margin:0,
-              dots: false,
-              responsive:{
-                  0:{
-                      items:1
-                  },
-                  600:{
-                      items:2
-                  },
-                  1000:{
-                      items:3
-                  }
-              }
-            });
-
+    
             $('.steps-slider').owlCarousel({
               margin:10,
               dots: false,
@@ -1424,18 +1658,7 @@
             });
 
          
-     
-          // $('.custom1').owlCarousel({
-          //       animateOut: 'slideOutDown',
-          //       animateIn: 'flipInX',
-          //       items: 1,
-          //       URLhashListener: true,
-          //       margin: 30,
-          //       stagePadding: 30,
-          //       smartSpeed: 450,
-          //       startPosition: 'URLHash',
-          //       dots: false,
-          //     });
+    
 
               $('.custom1').owlCarousel({
                   loop:true,
@@ -1459,6 +1682,8 @@
                       }
                   }
               });
+
+              recipeType('indian');
 
       });
     </script>
