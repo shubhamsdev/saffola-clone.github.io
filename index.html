@@ -140,7 +140,7 @@
       <!-- product slider start -->
       <section id='product' class="bg-warning-soft product-slider-section pb-5 has-divder">
         <div class="container">
-          <div class="custom1 owl-carousel owl-theme">
+          <div class="custom1 owl-carousel">
               <div class="item" data-hash="zero">
                   <div class="container-fluid">
                       <div class='product-slider'>
@@ -1425,16 +1425,39 @@
 
          
      
-          $('.custom1').owlCarousel({
-                animateOut: 'slideOutDown',
-                animateIn: 'flipInX',
-                items: 1,
-                URLhashListener: true,
-                margin: 30,
-                stagePadding: 30,
-                smartSpeed: 450,
-                startPosition: 'URLHash',
-                dots: false,
+          // $('.custom1').owlCarousel({
+          //       animateOut: 'slideOutDown',
+          //       animateIn: 'flipInX',
+          //       items: 1,
+          //       URLhashListener: true,
+          //       margin: 30,
+          //       stagePadding: 30,
+          //       smartSpeed: 450,
+          //       startPosition: 'URLHash',
+          //       dots: false,
+          //     });
+
+              $('.custom1').owlCarousel({
+                  loop:true,
+                  animateOut: 'slideOutDown',
+                  animateIn: 'flipInX',
+                  margin:10,
+                  responsiveClass:true,
+                  responsive:{
+                      0:{
+                          items:1,
+                          nav:true
+                      },
+                      600:{
+                          items:1,
+                          nav:false
+                      },
+                      1000:{
+                          items:1,
+                          nav:true,
+                          loop:false
+                      }
+                  }
               });
 
       });
