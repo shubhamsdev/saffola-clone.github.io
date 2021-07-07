@@ -159,9 +159,14 @@ body {
 .product-slider-section-3 {
   background-image: url("../images/product/Combined Shape-23.svg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
 }
-
+.custom1 .owl-next{
+  display:none;
+}
+.custom1 .owl-prev{
+  display:none;
+}
 .feature-content h1,
 .banner-content h1,
 .steps-section h1,
@@ -317,7 +322,8 @@ body {
 .add-on-btn {
   position: absolute;
   top: -14px;
-  left: 215px;
+  left: 241px;
+  padding: 1% 5%;
 }
 
 .recipes-slider .item {
@@ -660,6 +666,7 @@ body {
 .pc-hide{
   display: block !important;;
 }
+
   .bowl{
     display: none;
   }
@@ -686,7 +693,23 @@ body {
     padding: 65% 6% 1% 6%;
     text-align: center;
   }
- 
+  .rotate-356 {
+    transform: rotate(360deg);
+  }
+  .add-on-btn {
+    position: absolute;
+    top: 10px;
+    left: 123px;
+  }
+  .product-slider-section-3{
+    height: 118%;
+    width: 106%;
+  }
+  .product-slider .col-10 {
+    padding-right:16%;
+    text-align: center;
+  }
+
   .carousel-bg-2 {
     background-image: url("../images/carousel/bg-11.jpg");
   }
