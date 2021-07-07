@@ -230,6 +230,10 @@ body {
 .product-content:hover h6 {
   text-decoration: none;
 }
+.pc-hide{
+  display: none !important;;
+}
+
 
 .product-click {
   background-color: #fff !important;
@@ -650,6 +654,12 @@ body {
  .mb-40{
    margin-bottom:40%;
  }
+ .mob-hide{
+  display: none !important;;
+}
+.pc-hide{
+  display: block !important;;
+}
   .bowl{
     display: none;
   }
