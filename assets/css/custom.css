@@ -663,9 +663,9 @@ body {
  .mob-hide{
   display: none !important;;
 }
-.pc-hide{
+/* .pc-hide{
   display: block !important;;
-}
+} */
 
   .bowl{
     display: none;
@@ -835,6 +835,7 @@ body {
 .swiper-button-prev,.swiper-button-next {
     display: none!important;
   }
+  
   .card__face .caption {
     bottom: 170px;
 }
