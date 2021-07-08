@@ -543,9 +543,10 @@
                   </div>
               </div>
               <div class="col-lg-5 feature-bg pl-0 pr-0">
-                  <img class="d-block w-100 d-none d-md-none d-lg-block d-xl-block" src="assets/images/banner/Image 1-4 -2.jpg" alt="First slide">
-                  <img class="d-block w-100 d-none d-sm-none d-md-block d-lg-none" src="assets/images/banner/Image 1-7.jpg" alt="First slide">
-                  <img class="d-block w-100 d-block d-sm-none" src="assets/images/banner/Image 1-4.jpg" alt="First slide">
+                  <!-- <img class="d-block w-100" src="assets/images/banner/Image 1-4 -2.jpg" alt="First slide"> -->
+                  <img class="d-block w-100 mob-hide" src="assets/images/banner/Image 1-4 -2.jpg" alt="First slide">
+                  <!-- <img class="d-block w-100 d-none d-sm-none d-md-block d-lg-none" src="assets/images/banner/Image 1-7.jpg" alt="First slide"> -->
+                  <img class="d-block w-100 pc-hide" src="assets/images/banner/Image 1-4.jpg" alt="First slide">
               </div>
             </div>
         </div>
@@ -1391,7 +1392,7 @@
               </div>
               <div class="col-lg-7 term">
                 <a class="mr-2 text-white">Terms & Conditions |</a> 
-                <a class="mr-2 text-white">Privacy Policy |</a> 
+                <a class="mr-2 text-white">Privacy Policy <span class="mob-hide">|</span></a> 
                 <a class='text-white'>© 2021Saffola. All Rights Reserved</a>
               </div>
             </div>
@@ -1481,7 +1482,7 @@
             else this.value = "Close Curtain";
         }
 
-      var activeRecepieName = "indian-recipe";
+      var activeRecepieName = "";
       function recipeType(recipeName) {
         var i;
         var x = document.getElementsByClassName("recipe");
