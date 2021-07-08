@@ -654,6 +654,13 @@ body {
     top: -34px;
     left: 2px;
   }
+  .mob-hide{
+    display: none !important;;
+  }
+  .pc-hide{
+    display: block !important;;
+  }
+  
 }
 
 @media only screen and (max-width: 600px) {
