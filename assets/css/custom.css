@@ -663,9 +663,9 @@ body {
  .mob-hide{
   display: none !important;;
 }
-/* .pc-hide{
+.pc-hide{
   display: block !important;;
-} */
+}
 
   .bowl{
     display: none;
