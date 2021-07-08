@@ -638,11 +638,11 @@ body {
     right: 5%;
     z-index: 20;
   }
-  .spikes{
+  /* .spikes{
     display: none;
-  }
+  } */
   .divider {
-    display: block;
+    display: none;
   }
   .circle-right {
     
@@ -752,7 +752,7 @@ body {
   .add-on-btn {
     position: absolute;
     top: -9px;
-    left: 114px;
+    left: 132px;
 }
   .pad-0 {
     padding: 0px !important;
@@ -861,7 +861,7 @@ body {
 #scrollTop{
   display: block;
   position: absolute;
-  bottom: 780px;
+  bottom: 603px;
   right: 5%;
   z-index: 20;
 }
